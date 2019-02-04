@@ -11,3 +11,14 @@ def DoubleElement(arr1, arr2):
                 newList.append(num)
     return newList
 print(DoubleElement([11, 8,23,7,25, 15], [6, 33, 50,31, 46, 78, 16,34]))
+
+
+#Optimized & Better
+def DoubleElement(arr1, arr2):
+    newList = []
+    for num in arr1:
+        if((num * 2) in arr2):
+            newList.append(num)
+    return newList
+print(DoubleElement([11, 8,23,7,25, 15], [6, 33, 50,31, 46, 78, 16,34]))
+

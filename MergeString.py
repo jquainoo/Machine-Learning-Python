@@ -23,7 +23,6 @@ def MergeToString(arr1, arr2):
               
     for word in newList:
         sentence += word + " "
-
     return sentence
 
 print(MergeToString(['A', 'app','a', 'd', 'ke', 'th', 'doc', 'awa'],['y','tor','e','eps','ay',None,'le','n']))
